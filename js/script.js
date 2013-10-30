@@ -26,8 +26,12 @@ $(document).ready(function() {
 		$("#myCarousel").carousel(2);
 	});
 
-	$("#navContact").click(function() {
+	$("#navResume").click(function() {
 		$("#myCarousel").carousel(3);
+	});
+
+	$("#navContact").click(function() {
+		$("#myCarousel").carousel(4);
 	});
 
 	$("#blog img").mouseenter(function() {
