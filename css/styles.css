@@ -5,7 +5,7 @@
 
 body {
 //	background-color: #050505;
-	background-color: #222;
+	background-color: #111;
 	min-height: 100%;
 }
 
@@ -17,7 +17,7 @@ body {
 
 .largeText {
 	font-size: 30px;
-	font-family: "Maven Pro", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 .small {
@@ -29,7 +29,7 @@ a {
 }
 
 #toplogo {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Maven Pro", sans-serif;
 	font-size: 120%;
 	color: #4a9ed8;
 }
@@ -39,7 +39,7 @@ a {
 }
 
 #content {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Maven Pro", sans-serif;
 	line-height: 100%;
 	font-size: 22px;
     text-align: center;
@@ -53,7 +53,6 @@ a {
 #myCarousel {
 	text-align: center;
 	width: 100%;
-	background-image: url('../img/assault.png');
 	margin-top: -10px;
 	min-height: 78vh;
 }
@@ -94,24 +93,22 @@ a {
 	padding-bottom: 15px;
 }
 
-#worksImg {
-	margin-top: 40px;
-}
-
 #blog .largeText {
 	margin-bottom:20px;
 }
 	
 #blog img {
 	height: 120px;
-	width: 125px;
+	width: 120px;
 	margin: 40px 20px;
 	border-radius: 30px;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 
-#blog img:hover{ position: relative; 
-             top: -16px;} 
+#blog img:hover {
+	position: relative; 
+	top: -16px;
+}
 
 #comingUp {
 	padding: 25px;
@@ -122,8 +119,8 @@ a {
 	width: 220px;
 	margin-top: 30px;
 	float: left;
-	border-radius: 20px;
-	border: 1px solid orange;
+	border-radius: 5px;
+	padding-right: 25px;
 }
 
 #aboutSubtext {
@@ -133,10 +130,10 @@ a {
 }
 
 #aboutDetails {
-	margin-top: 55px;
+	margin-top: 70px;
 }
 
-#illinoisPara a {
+#illinois-link {
 	color: orange;
 	opacity: 0.8;
 }
@@ -147,12 +144,12 @@ a {
 
 #footer {
 	background-color: #203040;
-//	background-color: #3b5398;
+//	fb-blue background-color: #3b5398;
 	text-align: center;
 	color: #eee;
 	font-size: 15px;
 	height: 34px;
-	opacity: 0.8;
+	opacity: 0.85;
 	padding-top: 10px;
     font-family: "Maven Pro", sans-serif;
 }

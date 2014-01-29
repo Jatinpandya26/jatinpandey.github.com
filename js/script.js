@@ -5,7 +5,6 @@ $(document).ready(function() {
 	});
 
    $("#contactLink").click(function() {
-        console.log("Contact click detected!");
         $("#navContact").trigger('click');
     });
 
@@ -14,7 +13,7 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
-	$("#navWorks").click(function() {
+	$("#navHome").click(function() {
 		$("#myCarousel").carousel(0);
 	});
 
@@ -22,22 +21,14 @@ $(document).ready(function() {
 		$("#myCarousel").carousel(1);
 	});
 
-	$("#navAbout").click(function() {
-		$("#myCarousel").carousel(2);
-	});
-
-	$("#navResume").click(function() {
-		$("#myCarousel").carousel(3);
-	});
-
 	$("#navContact").click(function() {
-		$("#myCarousel").carousel(4);
+		$("#myCarousel").carousel(2);
 	});
 
 	$("#blog img").mouseenter(function() {
 		$(this).css("opacity", "1");
 	}).mouseleave(function() {
-		$(this).css("opacity", "0.82");
+		$(this).css("opacity", "0.85");
 	});
 
 	$("#homeSubtext").mouseenter(function() {
