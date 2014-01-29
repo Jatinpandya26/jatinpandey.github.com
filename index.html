@@ -7,10 +7,14 @@
 	<title>Jatin Pandey</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Jatin Pandey">
-	<meta name="keywords" content="jatin, pandey, illinois, university, computer, science, sharjah, design" />
 	<meta name="description" content="I like computers, design, music and humor">
+	<meta name="keywords" content="jatin, pandey, illinois, university, computer, science, sharjah, design" />
 
 	<link href="http://www.jatinpandey.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+	<meta property="og:title" content="Jatin Pandey">
+	<meta property="og:site_name" content="Jatin Pandey">
+	<meta property="og:type" content="website">
 
 	<!-- CSS and fonts -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
@@ -24,6 +28,26 @@
 </head>
 
 <body>
+
+	<div id="fb-root"></div>
+	    <script>
+	      window.fbAsyncInit = function() {
+	        FB.init({
+	          appId      : '621107387943422',
+	          status     : true,
+	          xfbml      : true
+	        });
+	      };
+
+	      (function(d, s, id){
+	         var js, fjs = d.getElementsByTagName(s)[0];
+	         if (d.getElementById(id)) {return;}
+	         js = d.createElement(s); js.id = id;
+	         js.src = "//connect.facebook.net/en_US/all.js";
+	         fjs.parentNode.insertBefore(js, fjs);
+	       }(document, 'script', 'facebook-jssdk'));
+	    </script>
+
 	<div class="container-fluid">
 		<div class="navbar navbar-inverse ">
 			<div class="navbar-inner">
@@ -86,6 +110,9 @@
 
 								<p class="sectionMethod">I aspire to create technology that adds convenience to daily life and enhances the way people interact with the world
 								<p class="sectionMethod">I love reading or listening to stories people have to share. Feel free to <a id="contactLink">get in touch</a> with me</p>
+
+								<div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+							
 							</div>
 						</div>
 				    </div>
