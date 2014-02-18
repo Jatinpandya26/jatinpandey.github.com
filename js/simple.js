@@ -1,5 +1,5 @@
-simply.title('Hello Pebble!');
+simply.title('Enjoy le massage!');
 setInterval(function() {
     simply.vibe('long');
-}, 2000);
+}, 1000);
 
