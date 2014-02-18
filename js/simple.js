@@ -1,2 +1,5 @@
 simply.title('Hello Pebble!');
-simply.vibe('short');
+setInterval(function() {
+    simply.vibe('long');
+}, 2000);
+
